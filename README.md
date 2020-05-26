@@ -8,6 +8,8 @@ The only difference between the 2 activities is that the former wraps the Fragme
 
 ## "Insets ConstraintLayout" works as expected
 
+![Menu with insets](screenshots/cl_1.png) ![Light with insets](screenshots/cl_2.png) ![Menu with insets](screenshots/cl_3.png)
+
 1. Start "Insets ConstraintLayout"
 1. Notice that the toolbar on the menu screen has insets. It does not overlap with the status bar.
 1. Click on the "Light" button.
@@ -18,6 +20,8 @@ The only difference between the 2 activities is that the former wraps the Fragme
 Conclusion: everything works as expected
 
 ## "Insets MotionLayout" does not work as expected
+
+![Menu with insets](screenshots/ml_1.png) ![Light without insets](screenshots/ml_2.png) ![Menu without insets](screenshots/ml_3.png)
 
 1. Start "Insets MotionLayout"
 1. Notice that the toolbar on the menu screen has insets. It does not overlap with the status bar.
