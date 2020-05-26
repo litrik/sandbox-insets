@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/main"
+    app:startDestination="@id/menuFragment">
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="be.norio.sandbox.insets.MenuFragment"
+        android:label="MenuFragment" >
+        <action
+            android:id="@+id/action_menuFragment_to_darkFragment"
+            app:destination="@id/darkFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_lightFragment"
+            app:destination="@id/lightFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/lightFragment"
+        android:name="be.norio.sandbox.insets.LightFragment"
+        android:label="LightFragment" />
+    <fragment
+        android:id="@+id/darkFragment"
+        android:name="be.norio.sandbox.insets.DarkFragment"
+        android:label="DarkFragment" />
+</navigation>
